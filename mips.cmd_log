@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Lenovo/Desktop/proyecto1/mips.xst" -ofn "C:/Users/Lenovo/Desktop/proyecto1/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3sd1800a-fg676-4 mips.ngc mips.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 

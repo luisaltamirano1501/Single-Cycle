@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Lenovo/Desktop/git/proyecto1/tb_mips_isim_beh.exe" -prj "C:/Users/Lenovo/Desktop/git/proyecto1/tb_mips_beh.prj" "work.tb_mips" 

@@ -1,0 +1,1 @@
+vhdtdtfi -lib work proyecto1.vhd -prj proyecto1 -o proyecto1.spl -module proyecto1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

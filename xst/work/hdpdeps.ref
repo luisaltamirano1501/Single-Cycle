@@ -1,0 +1,79 @@
+V3 62
+FL C:/Users/Lenovo/Desktop/proyecto1/adder.vhd 2018/11/21.12:51:22 P.20131013
+EN work/adder 1543467230 FL C:/Users/Lenovo/Desktop/proyecto1/adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder/behave 1543467231 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/adder.vhd EN work/adder 1543467230
+FL C:/Users/Lenovo/Desktop/proyecto1/alu.vhd 2018/11/21.13:17:46 P.20131013
+EN work/alu 1543467240 FL C:/Users/Lenovo/Desktop/proyecto1/alu.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/alu/bhv 1543467241 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/alu.vhd EN work/alu 1543467240
+FL C:/Users/Lenovo/Desktop/proyecto1/AluDec.vhd 2018/11/22.18:01:38 P.20131013
+EN work/aludec 1543467244 FL C:/Users/Lenovo/Desktop/proyecto1/AluDec.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/aludec/behave 1543467245 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/AluDec.vhd EN work/aludec 1543467244
+FL C:/Users/Lenovo/Desktop/proyecto1/Controller.vhd 2018/11/22.18:01:38 P.20131013
+EN work/controller 1543467246 FL C:/Users/Lenovo/Desktop/proyecto1/Controller.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/controller/struct 1543467247 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/Controller.vhd EN work/controller 1543467246 \
+      CP maindec CP aludec
+FL C:/Users/Lenovo/Desktop/proyecto1/datapath.vhd 2018/11/09.15:34:16 P.20131013
+FL C:/Users/Lenovo/Desktop/proyecto1/dp.vhd 2018/11/28.21:37:37 P.20131013
+EN work/datapath 1543467248 FL C:/Users/Lenovo/Desktop/proyecto1/dp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/datapath/struct 1543467249 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/dp.vhd EN work/datapath 1543467248 \
+      CP flopr CP adder CP sl2 CP mux2 CP regfile CP signext CP alu
+FL C:/Users/Lenovo/Desktop/proyecto1/flopr.vhd 2018/11/28.13:22:59 P.20131013
+EN work/flopr 1543467228 FL C:/Users/Lenovo/Desktop/proyecto1/flopr.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/flopr/Behavioral 1543467229 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/flopr.vhd EN work/flopr 1543467228
+FL C:/Users/Lenovo/Desktop/proyecto1/MainDecoder.vhd 2018/11/22.18:01:38 P.20131013
+EN work/maindec 1543467242 FL C:/Users/Lenovo/Desktop/proyecto1/MainDecoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/maindec/behave 1543467243 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/MainDecoder.vhd EN work/maindec 1543467242
+FL C:/Users/Lenovo/Desktop/proyecto1/mux2.vhd 2018/11/21.12:59:26 P.20131013
+EN work/mux2 1543467234 FL C:/Users/Lenovo/Desktop/proyecto1/mux2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux2/behave 1543467235 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/mux2.vhd EN work/mux2 1543467234
+FL C:/Users/Lenovo/Desktop/proyecto1/proyecto1.vhd 2018/11/28.22:10:14 P.20131013
+EN work/mips 1543467250 FL C:/Users/Lenovo/Desktop/proyecto1/proyecto1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mips/struct 1543467251 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/proyecto1.vhd EN work/mips 1543467250 \
+      CP controller CP datapath
+FL C:/Users/Lenovo/Desktop/proyecto1/regfile.vhd 2018/11/28.13:35:32 P.20131013
+EN work/regfile 1543467236 FL C:/Users/Lenovo/Desktop/proyecto1/regfile.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/regfile/behave 1543467237 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/regfile.vhd EN work/regfile 1543467236
+FL C:/Users/Lenovo/Desktop/proyecto1/signext.vhd 2018/11/21.13:15:56 P.20131013
+EN work/signext 1543467238 FL C:/Users/Lenovo/Desktop/proyecto1/signext.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/signext/behave 1543467239 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/signext.vhd EN work/signext 1543467238
+FL C:/Users/Lenovo/Desktop/proyecto1/sl2.vhd 2018/11/21.12:57:51 P.20131013
+EN work/sl2 1543467232 FL C:/Users/Lenovo/Desktop/proyecto1/sl2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sl2/behave 1543467233 \
+      FL C:/Users/Lenovo/Desktop/proyecto1/sl2.vhd EN work/sl2 1543467232
+FL "C:/Users/Lenovo/Desktop/UNIVERSIDAD/2018-2/arquitectura de computadoras/proyecto1/proyecto1.vhd" 2018/10/28.18:52:30 P.20131013
+FL "C:/Users/Lenovo/Desktop/UNIVERSIDAD/2018-2/arquitectura de computadoras/single cycle(Altamirano)/proyecto1/proyecto1.vhd" 2018/10/29.12:48:42 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/adder.vhd 2018/11/08.14:02:05 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/alu.vhd 2018/11/09.15:35:57 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/AluDec.vhd 2018/11/08.13:42:00 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/Controller.vhd 2018/11/07.16:57:03 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/datapath.vhd 2018/11/09.15:34:16 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/flopr.vhd 2018/11/09.14:57:09 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/MainDecoder.vhd 2018/11/08.13:52:25 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/mux2.vhd 2018/11/08.14:19:06 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/proyecto1.vhd 2018/11/09.15:54:26 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/regfile.vhd 2018/11/09.14:06:46 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/signext.vhd 2018/11/08.14:26:39 P.20131013
+FL C:/Users/Lenovo/Desktop/UNIVERSIDAD/proyecto1/sl2.vhd 2018/11/06.18:56:41 P.20131013
